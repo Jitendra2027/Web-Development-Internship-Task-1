@@ -1,0 +1,104 @@
+*{
+    box-sizing: border-box;
+    font-family: 'Abel';
+}
+h1,h2,h3,h4,h5,h6{
+    font-weight: bold!important;
+    letter-spacing: 1.5px;
+}
+p,li{
+    font-size: 17px!important;
+}
+.header{
+    position: fixed;
+    height: 80px;
+    width: 100%;
+    background: linear-gradient(
+45deg
+, #ef8d38, #9e0a64);
+    z-index: 9999;
+}
+.social-links a{
+    font-size: 25px;
+    color: white;
+}
+.social-links i{
+    font-size: 20px;
+    color: white;
+}
+.image{
+    background: url(/home-banner.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 820px;
+    width: 100%;
+    padding-top: 150px;
+}
+.button{
+    color: white;
+    background-color: black;
+    padding: 16px 12px;
+    width: 100%;
+    border: none;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+#first{
+    background-color: #efe8e8b3;
+}
+#first h3{
+    color: #d66446;
+    font-weight: bold;    
+}
+#first .border{
+    border: 1px solid #d66446!important;
+    border-top: none!important;
+}
+#about,#testimonial{
+    background: linear-gradient(45deg , #ef8d38, #9e0a64);
+    color: white;
+    height: auto;
+}
+.icons{
+    height: 70px;
+    width: 70px;
+    background-color: white;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 5;
+    margin: 20px 0;
+}
+.icons i{
+    color: #da6a44;
+    font-size: 32px;
+}
+.icon-text p{
+    font-size: 20px!important;
+    margin-top: 0;
+    font-weight: 500;
+}
+#testimonial h3{
+    font-size: 35px;
+    font-family: 'Dancing Script';
+}
+#testimonial p{
+    font-family: 'Dancing Script';
+    color:white;
+    font-size: 20px!important;
+}
+.carousel .item {
+    height: 700px;
+  }
+#footer{
+    color: white;
+    background-color: black;
+    font-weight: 500;
+}
+#footer li{
+    line-height: 2;
+}
+#footer a{
+    text-decoration: none;
+    color: white;
+}
